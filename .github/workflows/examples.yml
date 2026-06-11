@@ -1,0 +1,45 @@
+name: Examples (e2e)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      huml_version:
+        description: 'Huml.Net package version to test (blank = build from main repo)'
+        required: false
+        default: ''
+
+jobs:
+  run-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout examples
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      # Pre-publish: the beta is not on nuget.org yet, so build the package from the main repo
+      # and drop it into local-feed/. Once 0.2.0-beta.1 is published, delete this step and the
+      # nuget.config local source — restore will then come from nuget.org.
+      - name: Checkout Huml.Net (for packing the beta)
+        if: ${{ github.event.inputs.huml_version == '' }}
+        uses: actions/checkout@v4
+        with:
+          repository: primeBeri/huml-dotnet
+          path: huml-dotnet
+
+      - name: Pack the beta into local-feed
+        if: ${{ github.event.inputs.huml_version == '' }}
+        run: |
+          dotnet pack huml-dotnet/src/Huml.Net/Huml.Net.csproj -c Release \
+            -p:Version=0.2.0-beta.1 -p:MinVerVersionOverride=0.2.0-beta.1 -o local-feed
+          dotnet pack huml-dotnet/src/Huml.Net.SourceGeneration/Huml.Net.SourceGeneration.csproj -c Release \
+            -p:Version=0.2.0-beta.1 -p:MinVerVersionOverride=0.2.0-beta.1 -o local-feed
+
+      - name: Run all examples against the package
+        run: pwsh ./run-examples.ps1 ${{ github.event.inputs.huml_version && format('-HumlNetVersion {0}', github.event.inputs.huml_version) || '' }}

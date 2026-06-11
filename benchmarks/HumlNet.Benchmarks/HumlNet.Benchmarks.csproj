@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>HumlNet.Benchmarks</AssemblyName>
+    <!-- BenchmarkDotNet requires Release; the project is excluded from run-examples. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageReference Include="Huml.Net" Version="$(HumlNetVersion)" />
+    <PackageReference Include="Huml.Net.SourceGeneration" Version="$(HumlNetVersion)" />
+  </ItemGroup>
+
+</Project>
