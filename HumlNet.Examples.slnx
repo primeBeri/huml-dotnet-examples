@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Examples.Shared/Examples.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/examples/">
+    <Project Path="src/examples/E01.GettingStarted/E01.GettingStarted.csproj" />
+    <Project Path="src/examples/E02.NamingPolicies/E02.NamingPolicies.csproj" />
+    <Project Path="src/examples/E03.Enums/E03.Enums.csproj" />
+    <Project Path="src/examples/E04.Polymorphism/E04.Polymorphism.csproj" />
+    <Project Path="src/examples/E05.CustomConverters/E05.CustomConverters.csproj" />
+    <Project Path="src/examples/E06.Populate/E06.Populate.csproj" />
+    <Project Path="src/examples/E07.ErrorHandling/E07.ErrorHandling.csproj" />
+    <Project Path="src/examples/E08.SourceGeneration/E08.SourceGeneration.csproj" />
+  </Folder>
+</Solution>

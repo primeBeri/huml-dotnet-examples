@@ -1,0 +1,20 @@
+%HUML v0.2.0
+name: "acme-service"
+version: "1.4.2"
+enabled: true
+server::
+  host: "0.0.0.0"
+  port: 443
+  tls::
+    enabled: true
+    min-version: "1.2"
+database::
+  driver: "postgres"
+  host: "db.internal"
+  port: 5432
+  pool-size: 20
+  read-replicas:: "replica-1", "replica-2", "replica-3"
+features:: "search", "export", "audit-log"
+limits::
+  max-request-bytes: 1048576
+  rate-per-minute: 600

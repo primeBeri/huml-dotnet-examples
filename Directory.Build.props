@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>13</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- The Huml.Net package version under test. Override on the CLI to test a different
+         published version: dotnet build -p:HumlNetVersion=0.2.0-beta.2 -->
+    <HumlNetVersion Condition="'$(HumlNetVersion)' == ''">0.2.0-beta.1</HumlNetVersion>
+    <!-- These are reference examples, not a packable library. -->
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

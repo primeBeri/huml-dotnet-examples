@@ -1,0 +1,8 @@
+bin/
+obj/
+# Local NuGet feed populated by `dotnet pack` from the main repo during development.
+# Not committed — CI repacks it (or, post-beta, restores from nuget.org).
+local-feed/
+*.user
+.vs/
+BenchmarkDotNet.Artifacts/

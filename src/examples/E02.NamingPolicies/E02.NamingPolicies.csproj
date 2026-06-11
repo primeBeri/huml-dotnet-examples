@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>E02.NamingPolicies</AssemblyName>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,604 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "name": "item-1",
+      "active": false,
+      "score": 1.5
+    },
+    {
+      "id": 2,
+      "name": "item-2",
+      "active": true,
+      "score": 3.0
+    },
+    {
+      "id": 3,
+      "name": "item-3",
+      "active": false,
+      "score": 4.5
+    },
+    {
+      "id": 4,
+      "name": "item-4",
+      "active": true,
+      "score": 6.0
+    },
+    {
+      "id": 5,
+      "name": "item-5",
+      "active": false,
+      "score": 7.5
+    },
+    {
+      "id": 6,
+      "name": "item-6",
+      "active": true,
+      "score": 9.0
+    },
+    {
+      "id": 7,
+      "name": "item-7",
+      "active": false,
+      "score": 10.5
+    },
+    {
+      "id": 8,
+      "name": "item-8",
+      "active": true,
+      "score": 12.0
+    },
+    {
+      "id": 9,
+      "name": "item-9",
+      "active": false,
+      "score": 13.5
+    },
+    {
+      "id": 10,
+      "name": "item-10",
+      "active": true,
+      "score": 15.0
+    },
+    {
+      "id": 11,
+      "name": "item-11",
+      "active": false,
+      "score": 16.5
+    },
+    {
+      "id": 12,
+      "name": "item-12",
+      "active": true,
+      "score": 18.0
+    },
+    {
+      "id": 13,
+      "name": "item-13",
+      "active": false,
+      "score": 19.5
+    },
+    {
+      "id": 14,
+      "name": "item-14",
+      "active": true,
+      "score": 21.0
+    },
+    {
+      "id": 15,
+      "name": "item-15",
+      "active": false,
+      "score": 22.5
+    },
+    {
+      "id": 16,
+      "name": "item-16",
+      "active": true,
+      "score": 24.0
+    },
+    {
+      "id": 17,
+      "name": "item-17",
+      "active": false,
+      "score": 25.5
+    },
+    {
+      "id": 18,
+      "name": "item-18",
+      "active": true,
+      "score": 27.0
+    },
+    {
+      "id": 19,
+      "name": "item-19",
+      "active": false,
+      "score": 28.5
+    },
+    {
+      "id": 20,
+      "name": "item-20",
+      "active": true,
+      "score": 30.0
+    },
+    {
+      "id": 21,
+      "name": "item-21",
+      "active": false,
+      "score": 31.5
+    },
+    {
+      "id": 22,
+      "name": "item-22",
+      "active": true,
+      "score": 33.0
+    },
+    {
+      "id": 23,
+      "name": "item-23",
+      "active": false,
+      "score": 34.5
+    },
+    {
+      "id": 24,
+      "name": "item-24",
+      "active": true,
+      "score": 36.0
+    },
+    {
+      "id": 25,
+      "name": "item-25",
+      "active": false,
+      "score": 37.5
+    },
+    {
+      "id": 26,
+      "name": "item-26",
+      "active": true,
+      "score": 39.0
+    },
+    {
+      "id": 27,
+      "name": "item-27",
+      "active": false,
+      "score": 40.5
+    },
+    {
+      "id": 28,
+      "name": "item-28",
+      "active": true,
+      "score": 42.0
+    },
+    {
+      "id": 29,
+      "name": "item-29",
+      "active": false,
+      "score": 43.5
+    },
+    {
+      "id": 30,
+      "name": "item-30",
+      "active": true,
+      "score": 45.0
+    },
+    {
+      "id": 31,
+      "name": "item-31",
+      "active": false,
+      "score": 46.5
+    },
+    {
+      "id": 32,
+      "name": "item-32",
+      "active": true,
+      "score": 48.0
+    },
+    {
+      "id": 33,
+      "name": "item-33",
+      "active": false,
+      "score": 49.5
+    },
+    {
+      "id": 34,
+      "name": "item-34",
+      "active": true,
+      "score": 51.0
+    },
+    {
+      "id": 35,
+      "name": "item-35",
+      "active": false,
+      "score": 52.5
+    },
+    {
+      "id": 36,
+      "name": "item-36",
+      "active": true,
+      "score": 54.0
+    },
+    {
+      "id": 37,
+      "name": "item-37",
+      "active": false,
+      "score": 55.5
+    },
+    {
+      "id": 38,
+      "name": "item-38",
+      "active": true,
+      "score": 57.0
+    },
+    {
+      "id": 39,
+      "name": "item-39",
+      "active": false,
+      "score": 58.5
+    },
+    {
+      "id": 40,
+      "name": "item-40",
+      "active": true,
+      "score": 60.0
+    },
+    {
+      "id": 41,
+      "name": "item-41",
+      "active": false,
+      "score": 61.5
+    },
+    {
+      "id": 42,
+      "name": "item-42",
+      "active": true,
+      "score": 63.0
+    },
+    {
+      "id": 43,
+      "name": "item-43",
+      "active": false,
+      "score": 64.5
+    },
+    {
+      "id": 44,
+      "name": "item-44",
+      "active": true,
+      "score": 66.0
+    },
+    {
+      "id": 45,
+      "name": "item-45",
+      "active": false,
+      "score": 67.5
+    },
+    {
+      "id": 46,
+      "name": "item-46",
+      "active": true,
+      "score": 69.0
+    },
+    {
+      "id": 47,
+      "name": "item-47",
+      "active": false,
+      "score": 70.5
+    },
+    {
+      "id": 48,
+      "name": "item-48",
+      "active": true,
+      "score": 72.0
+    },
+    {
+      "id": 49,
+      "name": "item-49",
+      "active": false,
+      "score": 73.5
+    },
+    {
+      "id": 50,
+      "name": "item-50",
+      "active": true,
+      "score": 75.0
+    },
+    {
+      "id": 51,
+      "name": "item-51",
+      "active": false,
+      "score": 76.5
+    },
+    {
+      "id": 52,
+      "name": "item-52",
+      "active": true,
+      "score": 78.0
+    },
+    {
+      "id": 53,
+      "name": "item-53",
+      "active": false,
+      "score": 79.5
+    },
+    {
+      "id": 54,
+      "name": "item-54",
+      "active": true,
+      "score": 81.0
+    },
+    {
+      "id": 55,
+      "name": "item-55",
+      "active": false,
+      "score": 82.5
+    },
+    {
+      "id": 56,
+      "name": "item-56",
+      "active": true,
+      "score": 84.0
+    },
+    {
+      "id": 57,
+      "name": "item-57",
+      "active": false,
+      "score": 85.5
+    },
+    {
+      "id": 58,
+      "name": "item-58",
+      "active": true,
+      "score": 87.0
+    },
+    {
+      "id": 59,
+      "name": "item-59",
+      "active": false,
+      "score": 88.5
+    },
+    {
+      "id": 60,
+      "name": "item-60",
+      "active": true,
+      "score": 90.0
+    },
+    {
+      "id": 61,
+      "name": "item-61",
+      "active": false,
+      "score": 91.5
+    },
+    {
+      "id": 62,
+      "name": "item-62",
+      "active": true,
+      "score": 93.0
+    },
+    {
+      "id": 63,
+      "name": "item-63",
+      "active": false,
+      "score": 94.5
+    },
+    {
+      "id": 64,
+      "name": "item-64",
+      "active": true,
+      "score": 96.0
+    },
+    {
+      "id": 65,
+      "name": "item-65",
+      "active": false,
+      "score": 97.5
+    },
+    {
+      "id": 66,
+      "name": "item-66",
+      "active": true,
+      "score": 99.0
+    },
+    {
+      "id": 67,
+      "name": "item-67",
+      "active": false,
+      "score": 100.5
+    },
+    {
+      "id": 68,
+      "name": "item-68",
+      "active": true,
+      "score": 102.0
+    },
+    {
+      "id": 69,
+      "name": "item-69",
+      "active": false,
+      "score": 103.5
+    },
+    {
+      "id": 70,
+      "name": "item-70",
+      "active": true,
+      "score": 105.0
+    },
+    {
+      "id": 71,
+      "name": "item-71",
+      "active": false,
+      "score": 106.5
+    },
+    {
+      "id": 72,
+      "name": "item-72",
+      "active": true,
+      "score": 108.0
+    },
+    {
+      "id": 73,
+      "name": "item-73",
+      "active": false,
+      "score": 109.5
+    },
+    {
+      "id": 74,
+      "name": "item-74",
+      "active": true,
+      "score": 111.0
+    },
+    {
+      "id": 75,
+      "name": "item-75",
+      "active": false,
+      "score": 112.5
+    },
+    {
+      "id": 76,
+      "name": "item-76",
+      "active": true,
+      "score": 114.0
+    },
+    {
+      "id": 77,
+      "name": "item-77",
+      "active": false,
+      "score": 115.5
+    },
+    {
+      "id": 78,
+      "name": "item-78",
+      "active": true,
+      "score": 117.0
+    },
+    {
+      "id": 79,
+      "name": "item-79",
+      "active": false,
+      "score": 118.5
+    },
+    {
+      "id": 80,
+      "name": "item-80",
+      "active": true,
+      "score": 120.0
+    },
+    {
+      "id": 81,
+      "name": "item-81",
+      "active": false,
+      "score": 121.5
+    },
+    {
+      "id": 82,
+      "name": "item-82",
+      "active": true,
+      "score": 123.0
+    },
+    {
+      "id": 83,
+      "name": "item-83",
+      "active": false,
+      "score": 124.5
+    },
+    {
+      "id": 84,
+      "name": "item-84",
+      "active": true,
+      "score": 126.0
+    },
+    {
+      "id": 85,
+      "name": "item-85",
+      "active": false,
+      "score": 127.5
+    },
+    {
+      "id": 86,
+      "name": "item-86",
+      "active": true,
+      "score": 129.0
+    },
+    {
+      "id": 87,
+      "name": "item-87",
+      "active": false,
+      "score": 130.5
+    },
+    {
+      "id": 88,
+      "name": "item-88",
+      "active": true,
+      "score": 132.0
+    },
+    {
+      "id": 89,
+      "name": "item-89",
+      "active": false,
+      "score": 133.5
+    },
+    {
+      "id": 90,
+      "name": "item-90",
+      "active": true,
+      "score": 135.0
+    },
+    {
+      "id": 91,
+      "name": "item-91",
+      "active": false,
+      "score": 136.5
+    },
+    {
+      "id": 92,
+      "name": "item-92",
+      "active": true,
+      "score": 138.0
+    },
+    {
+      "id": 93,
+      "name": "item-93",
+      "active": false,
+      "score": 139.5
+    },
+    {
+      "id": 94,
+      "name": "item-94",
+      "active": true,
+      "score": 141.0
+    },
+    {
+      "id": 95,
+      "name": "item-95",
+      "active": false,
+      "score": 142.5
+    },
+    {
+      "id": 96,
+      "name": "item-96",
+      "active": true,
+      "score": 144.0
+    },
+    {
+      "id": 97,
+      "name": "item-97",
+      "active": false,
+      "score": 145.5
+    },
+    {
+      "id": 98,
+      "name": "item-98",
+      "active": true,
+      "score": 147.0
+    },
+    {
+      "id": 99,
+      "name": "item-99",
+      "active": false,
+      "score": 148.5
+    },
+    {
+      "id": 100,
+      "name": "item-100",
+      "active": true,
+      "score": 150.0
+    }
+  ]
+}

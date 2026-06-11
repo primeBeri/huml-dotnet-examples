@@ -1,0 +1,15 @@
+<Project>
+  <!-- Inherit the repo-root props, then add what every example project needs:
+       the Huml.Net package (under test) and the shared Check helper. Keeps each
+       example .csproj down to just OutputType + AssemblyName. -->
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Huml.Net" Version="$(HumlNetVersion)" />
+    <ProjectReference Include="$(MSBuildThisFileDirectory)..\Examples.Shared\Examples.Shared.csproj" />
+  </ItemGroup>
+</Project>

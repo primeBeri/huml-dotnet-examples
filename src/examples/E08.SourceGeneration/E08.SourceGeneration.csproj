@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>E08.SourceGeneration</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- The source generator package — adds reflection-free metadata. It transitively
+         brings in Huml.Net, so the Directory.Build.props package reference is redundant
+         but harmless (same version). -->
+    <PackageReference Include="Huml.Net.SourceGeneration" Version="$(HumlNetVersion)" />
+  </ItemGroup>
+</Project>
