@@ -36,6 +36,9 @@ jobs:
       - name: Pack the beta into local-feed
         if: ${{ github.event.inputs.huml_version == '' }}
         run: |
+          # The examples repo's nuget.config declares a 'local-feed' source; create it before
+          # packing so the main repo's own restore (which inherits that config) resolves it.
+          mkdir -p local-feed
           dotnet pack huml-dotnet/src/Huml.Net/Huml.Net.csproj -c Release \
             -p:Version=0.2.0-beta.1 -p:MinVerVersionOverride=0.2.0-beta.1 -o local-feed
           dotnet pack huml-dotnet/src/Huml.Net.SourceGeneration/Huml.Net.SourceGeneration.csproj -c Release \
