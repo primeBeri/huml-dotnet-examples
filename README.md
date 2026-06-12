@@ -45,14 +45,26 @@ dotnet run --project src/examples/E01.GettingStarted -c Release
 ## Package version under test
 
 Examples reference `Huml.Net` via `PackageReference` at `$(HumlNetVersion)` (default
-`0.2.0-beta.1`). During development — before the beta is published to nuget.org — the package is
-restored from `local-feed/`, which the [main repo](https://github.com/primeBeri/huml-dotnet)
-populates with `dotnet pack`. Once the beta ships, `local-feed/` is dropped and restore comes
-from nuget.org. Override the version with:
+`0.2.0-beta.1`, restored from nuget.org). Override the version with:
 
 ```bash
 ./run-examples.ps1 -HumlNetVersion 0.2.0-beta.1
 ```
+
+### CI modes
+
+The `Examples (e2e)` workflow runs in one of two modes:
+
+- **Published (default)** — every push/PR restores the default version from nuget.org. A manual
+  dispatch can pass `huml_version` to test any other published version.
+- **Pack-from-source** — a manual dispatch with `pack_from_source` ticked packs the
+  [main repo](https://github.com/primeBeri/huml-dotnet)'s current `main` into `local-feed/` as
+  version `0.0.0-source` and runs the examples against it. Use this to validate unreleased
+  changes before tagging a release. The distinct version guarantees restore never silently
+  picks a same-versioned package from nuget.org instead.
+
+To test an unpublished build locally, pack it into `local-feed/` with a distinct version and run
+`./run-examples.ps1 -HumlNetVersion <that version>`.
 
 ## Benchmarks
 

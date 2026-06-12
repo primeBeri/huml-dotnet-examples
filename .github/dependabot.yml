@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    ignore:
+      # Huml.Net is the package under test — its version is the point of this repo
+      # and is bumped deliberately per release, not by dependabot.
+      - dependency-name: "Huml.Net"
+      - dependency-name: "Huml.Net.SourceGeneration"
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
