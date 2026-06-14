@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>E12.AotPublish</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Source generator: provides reflection-free metadata, eliminating IL2026/IL3050 on the
+         serialize/deserialize path in a PublishAot or PublishTrimmed build. -->
+    <PackageReference Include="Huml.Net.SourceGeneration" Version="$(HumlNetVersion)" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>E11.ExtensionData</AssemblyName>
+  </PropertyGroup>
+</Project>

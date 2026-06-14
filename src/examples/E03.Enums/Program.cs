@@ -5,6 +5,7 @@ using Huml.Net.Serialization;
 namespace Examples.Enums;
 
 // E03 — Enums round-trip as quoted strings; [HumlEnumValue] customises the wire name.
+// Docs: https://primeberi.github.io/huml-dotnet/docs/enum-serialisation.html
 
 internal static class Program
 {

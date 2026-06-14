@@ -6,6 +6,7 @@ using Huml.Net.Versioning;
 namespace Examples.ErrorHandling;
 
 // E07 — The exception contract: parse errors, required-member enforcement, strict unknown keys.
+// Docs: https://primeberi.github.io/huml-dotnet/docs/error-handling.html
 
 internal static class Program
 {

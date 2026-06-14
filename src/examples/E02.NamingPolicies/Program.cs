@@ -6,6 +6,7 @@ using Huml.Net.Versioning;
 namespace Examples.NamingPolicies;
 
 // E02 — Map .NET PascalCase property names to kebab-case HUML keys (and a [HumlProperty] override).
+// Docs: https://primeberi.github.io/huml-dotnet/docs/naming-policy.html
 
 internal static class Program
 {

@@ -8,6 +8,7 @@ namespace Examples.SourceGeneration;
 
 // E08 — Reflection-free metadata via the source generator. The generated context resolver
 // is wired into HumlOptions; serialise/deserialise then use generated delegates.
+// Docs: https://primeberi.github.io/huml-dotnet/docs/source-generator.html
 
 internal static class Program
 {

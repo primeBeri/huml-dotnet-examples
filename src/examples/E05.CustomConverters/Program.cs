@@ -8,6 +8,7 @@ using Huml.Net.Versioning;
 namespace Examples.CustomConverters;
 
 // E05 — A custom HumlConverter<T> that serialises a value type to/from a compact string form.
+// Docs: https://primeberi.github.io/huml-dotnet/docs/custom-converters.html
 
 internal static class Program
 {

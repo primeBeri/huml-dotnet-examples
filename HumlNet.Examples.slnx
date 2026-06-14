@@ -11,5 +11,10 @@
     <Project Path="src/examples/E06.Populate/E06.Populate.csproj" />
     <Project Path="src/examples/E07.ErrorHandling/E07.ErrorHandling.csproj" />
     <Project Path="src/examples/E08.SourceGeneration/E08.SourceGeneration.csproj" />
+    <Project Path="src/examples/E09.Options/E09.Options.csproj" />
+    <Project Path="src/examples/E10.ConstructorBinding/E10.ConstructorBinding.csproj" />
+    <Project Path="src/examples/E11.ExtensionData/E11.ExtensionData.csproj" />
+    <Project Path="src/examples/E12.AotPublish/E12.AotPublish.csproj" />
+    <Project Path="src/examples/E13.Versioning/E13.Versioning.csproj" />
   </Folder>
 </Solution>

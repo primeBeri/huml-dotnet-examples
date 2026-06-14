@@ -3,6 +3,7 @@ using Huml.Net;
 
 // E01 — Getting started: deserialise, serialise, round-trip.
 // Mirrors the docs "Getting Started" tutorial. Doubles as an end-to-end test.
+// Docs: https://primeberi.github.io/huml-dotnet/docs/getting-started.html
 //
 // Note the clean idiom: `using Huml.Net;` then `HumlSerializer.Deserialize(...)`. The facade is
 // named HumlSerializer (not Huml) precisely so this resolves cleanly from any consumer namespace.

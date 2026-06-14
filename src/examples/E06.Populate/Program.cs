@@ -4,6 +4,7 @@ using Huml.Net;
 namespace Examples.Populate;
 
 // E06 — Overlay a partial HUML document onto an existing object (defaults + overrides pattern).
+// Docs: https://primeberi.github.io/huml-dotnet/docs/populate.html
 
 internal static class Program
 {

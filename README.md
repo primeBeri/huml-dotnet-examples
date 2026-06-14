@@ -41,6 +41,11 @@ dotnet run --project src/examples/E01.GettingStarted -c Release
 | E06 Populate | Overlay a partial document onto an instance |
 | E07 ErrorHandling | The exception contract; `HumlOptions.Strict` |
 | E08 SourceGeneration | Reflection-free metadata via `HumlGeneratedContext` |
+| E09 Options | Naming policy, collection format, ignore condition, number handling |
+| E10 ConstructorBinding | Records, `[HumlConstructor]`, `init`-only properties |
+| E11 ExtensionData | `[HumlExtensionData]` overflow bucket; `UnmappedMemberHandling.Disallow` |
+| E12 AotPublish | AOT-safe Parse path; source-gen path avoiding IL2026/IL3050 |
+| E13 Versioning | `DetectedVersion`, `VersionSource`, `UnknownVersionBehaviour` |
 
 ## Package version under test
 

@@ -7,6 +7,7 @@ namespace Examples.Polymorphism;
 
 // E04 — Discriminator-based polymorphism, including derived types nested in a collection
 // (the case the G3 review found was previously broken — proves the fix end-to-end).
+// Docs: https://primeberi.github.io/huml-dotnet/docs/polymorphism.html
 
 internal static class Program
 {
