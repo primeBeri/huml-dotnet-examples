@@ -50,7 +50,7 @@ dotnet run --project src/examples/E01.GettingStarted -c Release
 ## Package version under test
 
 Examples reference `Huml.Net` via `PackageReference` at `$(HumlNetVersion)` (default
-`0.2.0-beta.1`, restored from nuget.org). Override the version with:
+`0.2.0-rc.1`, restored from nuget.org). Override the version with:
 
 ```bash
 ./run-examples.ps1 -HumlNetVersion 0.2.0-beta.1
